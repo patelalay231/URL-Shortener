@@ -2,6 +2,11 @@
 
 This project is a URL shortener built using Node.js, Express.js, MongoDB, along with HTML and CSS for the front-end. It features a user authentication system, ensuring that only logged-in users can generate and manage their shortened URLs. The application also provides detailed analytics for each link created by a user.
 
+
+
+## Demo
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R9GGsFb-F2w?si=Q_zC6myNRw5Q-h3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Features
 
 - **URL Shortening**: Users can input a URL and receive a shortened version of it.
