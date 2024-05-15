@@ -5,7 +5,8 @@ This project is a URL shortener built using Node.js, Express.js, MongoDB, along 
 
 
 ## Demo
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R9GGsFb-F2w?si=Q_zC6myNRw5Q-h3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)](https://youtu.be/R9GGsFb-F2w?si=gkFy35RtiuMa4S3H)
+
 
 ## Features
 
