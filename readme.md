@@ -5,8 +5,7 @@ This project is a URL shortener built using Node.js, Express.js, MongoDB, along 
 
 
 ## Demo
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)](https://youtu.be/R9GGsFb-F2w?si=gkFy35RtiuMa4S3H)
-
+https://youtu.be/R9GGsFb-F2w?si=gkFy35RtiuMa4S3H
 
 ## Features
 
