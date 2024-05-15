@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="css/index.style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="bodyContainer">
+
+        <div class="headerContainer">
+            <span class="heading">URL Shortener</span>
+        </div>
+
+        <div class="mainConatainer">
+            <div class="contentCard">
+                <form action="/url" method="POST">
+                    <label for="url"> Enter URL here : </label>
+                    <input type="text" name="url" id="inputField" placeholder="https://example.com">
+                    <button type="submit">Get Shorten URL</button>
+                </form>
+                <% if (locals.id) { %>
+                    <p class="messageContainer">URL Generated: <a href="http://localhost:8000/a/<%= id %>" target="_blank">http://localhost:8000/a/<%= id %></a></p>
+                <% } %>
+                <% if (locals.error) { %>
+                    <p class="messageContainer"><%= error %></p>
+                <% } %>
+            
+                <div style="margin-top: 30px">
+                <% if (locals.urls) { %>
+                    <table class="table">
+                        <thead>
+                            <th>S. No</th>
+                            <th>ShortID</th>
+                            <th>Redirect</th>
+                            <th>Clicks</th>
+                        </thead>
+                        <tbody>
+                            <% urls.forEach((url, index) => { %>
+                                <tr>
+                                    <td><%= index + 1 %></td>
+                                    <td><a href="<%= url.redirectedUrl %>" target="_blank">http://localhost:8000/a/<%= url.shortId  %></a></td>
+                                    <td><a href="<%= url.redirectedUrl %>" target="_blank"><%= url.redirectedUrl %></a></td>
+                                    <td><%= url.visitHistory.length %></td>
+                                </tr>
+                            <% }) %>
+                        </tbody>
+                    </table>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
